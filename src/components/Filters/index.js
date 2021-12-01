@@ -9,7 +9,7 @@ export function Filters(){
 
     return (
         <FiltersWrapper>
-            <strong>Categories</strong>
+            <strong>Categorias</strong>
             {collections.map(collection => (
                 <CategoryFilterItem 
                 title={collection.title} 
