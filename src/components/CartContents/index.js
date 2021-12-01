@@ -19,7 +19,7 @@ export function CartContents() {
             <h1> Tu carrito </h1>
             {!!checkout?.lineItems && (
             <CartHeader>
-                <div>Productosss</div>
+                <div>Productos</div>
                 <div>Precio Unitario</div>
                 <div>Cantidad</div>
                 <div>Monto </div>
