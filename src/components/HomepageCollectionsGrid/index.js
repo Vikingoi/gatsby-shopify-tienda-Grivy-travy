@@ -2,10 +2,11 @@ import React from 'react';
 import {CollectionTile} from "../CollectionTile";
 import {RemainingCollections} from  "./styles";
 
+const collectionName = 'OFERTA';
 export function HomepageCollectionsGrid ({collections}) {
-    const saleCollection= collections.find(collection => collection.title === 'SALE' );
+    const saleCollection= collections.find(collection => collection.title === collectionName );
     const remainingCollections= collections.filter(
-        collection => collection.title !== 'SALE' );
+        collection => collection.title !== collectionName );
     return (
         <div>
             {!!saleCollection && (
